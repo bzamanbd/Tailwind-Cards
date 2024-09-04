@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    
+    extend: {
+      fontFamily: {
+        sand: ['Quicksand', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
